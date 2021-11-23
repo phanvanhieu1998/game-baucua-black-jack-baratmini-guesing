@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "game_id": 8,
+    "type": "full",
+    "options_val": {
+      "val_1": 10,
+      "val_2": 5,
+      "val_3": 10,
+      "val_4": 5
+    },
+    "results_match": null,
+    "note": "",
+    "status": 1,
+    "timeleft": 30,
+    "created_at": "2021-07-19 22:11:23"
+  },
+  {
+    "id": 2,
+    "game_id": 8,
+    "type": "n1st_half",
+    "options_val": {
+      "val_1": 10,
+      "val_2": 5,
+      "val_3": 10,
+      "val_4": 5
+    },
+    "results_match": null,
+    "note": "",
+    "status": 1,
+    "timeleft": 30,
+    "created_at": "2021-07-19 22:11:23"
+  },
+  {
+    "id": 3,
+    "game_id": 8,
+    "type": "n2nd_half",
+    "options_val": {
+      "val_1": "SIM",
+      "val_2": "TEXT",
+      "val_3": "MAX",
+      "val_4": "PING"
+    },
+    "results_match": null,
+    "note": "",
+    "status": 1,
+    "timeleft": 30,
+    "created_at": "2021-07-19 22:11:23"
+  },
+
+  {
+    "id": 5,
+    "game_id": 8,
+    "type": "full",
+    "options_val": {
+      "val_1": "BAO",
+      "val_2": "CAO",
+      "val_3": "SU",
+      "val_4": "XXX"
+    },
+    "results_match": null,
+    "note": "",
+    "status": 1,
+    "timeleft": 30,
+    "created_at": "2021-07-19 22:11:23"
+  },
+  {
+    "id": 6,
+    "game_id": 8,
+    "type": "qlines",
+    "options_val": {
+      "val_1": "YEU",
+      "val_2": "LAI",
+      "val_3": "TU",
+      "val_4": "DAU"
+    },
+    "results_match": null,
+    "note": "",
+    "status": 1,
+    "timeleft": 30,
+    "created_at": "2021-07-19 22:11:23"
+  },
+  {
+    "id": 4,
+    "game_id": 8,
+    "type": "qlines",
+    "options_val": {
+      "val_1": "VIN",
+      "val_2": "COM",
+      "val_3": "20",
+      "val_4": "10"
+    },
+    "results_match": null,
+    "note": "",
+    "status": 1,
+    "timeleft": 30,
+    "created_at": "2021-07-19 22:11:23"
+  },
+  {
+    "id": 7,
+    "game_id": 8,
+    "type": "n2nd_half",
+    "options_val": {
+      "val_1": "CHAO",
+      "val_2": "EM",
+      "val_3": "H20",
+      "val_4": "H5OH"
+    },
+    "results_match": null,
+    "note": "",
+    "status": 1,
+    "timeleft": 30,
+    "created_at": "2021-07-19 22:11:23"
+  },
+  {
+    "id": 8,
+    "game_id": 8,
+    "type": "n1st_half",
+    "options_val": {
+      "val_1": 20,
+      "val_2": 10,
+      "val_3": 20,
+      "val_4": 5
+    },
+    "results_match": null,
+    "note": "",
+    "status": 1,
+    "timeleft": 30,
+    "created_at": "2021-07-19 22:11:23"
+  },
+  {
+    "id": 9,
+    "game_id": 8,
+    "type": "full",
+    "options_val": {
+      "val_1": "BAO",
+      "val_2": "CAI",
+      "val_3": "20",
+      "val_4": "10"
+    },
+    "results_match": null,
+    "note": "",
+    "status": 1,
+    "timeleft": 30,
+    "created_at": "2021-07-19 22:11:23"
+  },
+  {
+    "id": 10,
+    "game_id": 8,
+    "type": "n2nd_half",
+    "options_val": {
+      "val_1": "MI",
+      "val_2": "TOM",
+      "val_3": "HAO",
+      "val_4": "HAO"
+    },
+    "results_match": null,
+    "note": "",
+    "status": 1,
+    "timeleft": 30,
+    "created_at": "2021-07-19 22:11:23"
+  }
+]

@@ -1,0 +1,21 @@
+{
+	"chips_bet":"chips_bet.wav",
+	"dealer_17_lose":"dealer_17_you_lose.mp3",
+	"dealer_17_win":"dealer_17_you_win.mp3",
+	"dealer_18_lose":"dealer_18_you_lose.mp3",
+	"dealer_18_win":"dealer_18_you_win.mp3",
+	"dealer_19_lose":"dealer_19_you_lose.mp3",
+	"dealer_19_win":"dealer_19_you_win.mp3",
+	"dealer_20_lose":"dealer_20_you_lose.mp3",
+	"dealer_20_win":"dealer_20_you_win.mp3",
+	"dealer_21_lose":"dealer_21_you_lose.mp3",
+	"push_hand":"push_hand.mp3",
+	"dealer_blackjack":"dealer_blackjack_you_lose.mp3",
+	"night_casino":"night_casino_II.mp3",
+	"dealing_cards":"dealing_cards.wav",
+	"user_bust":"you_bust.mp3",
+	"dealer_bust":"dealer_bust_you_win.mp3",
+	"got_blackjack":"you_got_blackjack.mp3"
+
+  
+}

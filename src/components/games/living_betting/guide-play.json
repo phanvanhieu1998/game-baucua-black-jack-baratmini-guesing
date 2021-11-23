@@ -1,0 +1,27 @@
+[
+
+  {
+   
+    "type": "Possession:",
+    "rules1": "Touchdown: must score a TD to win. All else constitute a lost.",
+    "rules2": "Field goal: must score a FG to win. All else constitute a lost.",
+   
+    "rules3": "If the team currently in possession punt & the receiving team turned it over (fumbles), The winning bet option for that possession would be a \"PUNT\"."
+  },
+  {
+  
+    "type": "3rd Down:",
+    "rules1": "Yes: must get a 1st down to win. All else constitute a lost.",
+    "rules2": "No: must be in 4th down to win. All else constitute a lost.",
+    "rules3":"If a penalty resulted the team in possession a 1st down then the winning bet option is a \"YES'\".",
+    "rules4":"If a penalty results the team in possession a replay of 3rd down then the bet option is still pending."
+   
+  },
+  {
+  
+    "type": "Redzone:",
+    "rules1": "Passing TD: must score in the end zone as a passing TD to win. A field goal will be a TIE. All else constitute a lost.",
+    "rules2": "Rushing TD: must score in the end zone as a rushing TD to win. A field goal will be a TIE. All else constitute a lost."
+   
+  }
+]

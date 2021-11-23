@@ -1,0 +1,58 @@
+{
+  "name": "st-9xac-games",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --mode development",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "agentkeepalive": "^4.1.4",
+    "axios": "^0.21.2",
+    "core-js": "^3.6.5",
+    "csshake": "^1.5.3",
+    "element-ui": "^2.15.1",
+    "howler": "^2.2.1",
+    "js-cookie": "^2.2.1",
+    "moment": "^2.29.1",
+    "pnpm": "^5.18.8",
+    "socket.io-client": "^4.2.0",
+    "vue": "^2.6.11",
+    "vue-axios": "^3.2.4",
+    "vue-moment": "^4.1.0",
+    "vue-pusher": "^1.1.0",
+    "vue-router": "^3.5.2",
+    "vue-socket.io": "^3.0.10",
+    "vuex": "^3.6.2",
+    "vuex-i18n": "^1.13.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

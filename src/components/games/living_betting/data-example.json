@@ -1,0 +1,135 @@
+[
+  {
+    "id": 1,
+    "game_id": 8,
+    "type": "possession",
+    "title": "Text goes here ahihi",
+    "settings": { "td": 20, "fg": 50, "punt": -100 },
+    "results_match": null,
+    "note": "",
+    "status": 1,
+    "timeleft": 30,
+    "created_at": "2021-07-19 22:11:23"
+  },
+
+  {
+    "id": 2,
+    "game_id": 8,
+    "type": "n3rd_down",
+    "title": "Text goes here ahihi",
+    "settings": { "yes": 20, "no": 50 },
+    "results_match": null,
+    "note": "",
+    "status": 1,
+    "timeleft": 20,
+    "created_at": "2021-07-19 22:11:23"
+  },
+  {
+    "id": 3,
+    "game_id": 8,
+    "type": "red_zone",
+    "title": "Text goes here ahihi",
+    "settings": { "rushing": 123, "passing": 55 },
+    "results_match": null,
+    "note": "",
+    "status": 1,
+    "timeleft": 30,
+    "created_at": "2021-07-19 22:11:23"
+  },
+  {
+    "id": 4,
+    "game_id": 8,
+    "type": "possession",
+    "title": "Text goes here ahihi",
+    "settings": { "td": 20, "fg": 50, "punt": 100 },
+    "results_match": null,
+    "note": "",
+    "status": 1,
+    "timeleft": 20,
+    "created_at": "2021-07-19 22:11:23"
+  },
+  {
+    "id": 5,
+    "game_id": 8,
+    "type": "n3rd_down",
+    "title": "Text goes here ahihi",
+    "settings": { "yes": 20, "no": 50 },
+    "results_match": null,
+    "note": "",
+    "status": 1,
+    "timeleft": 15,
+    "created_at": "2021-07-19 22:11:23"
+  },
+  {
+    "id": 6,
+    "game_id": 8,
+    "type": "red_zone",
+    "title": "Text goes here ahihi",
+    "settings": { "rushing": 123, "passing": 55 },
+    "results_match": null,
+    "note": "",
+    "status": 1,
+    "timeleft": 30,
+    "created_at": "2021-07-19 22:11:23"
+  },
+  {
+    "id": 7,
+    "game_id": 8,
+    "type": "n3rd_down",
+    "title": "Text goes here ahihi",
+    "settings": { "yes": 20, "no": 50 },
+    "results_match": null,
+    "note": "",
+    "status": 1,
+    "timeleft": 15,
+    "created_at": "2021-07-19 22:11:23"
+  },
+  {
+    "id": 8,
+    "game_id": 8,
+    "type": "red_zone",
+    "title": "Text goes here ahihi",
+    "settings": { "rushing": 123, "passing": 55 },
+    "results_match": null,
+    "note": "",
+    "status": 1,
+    "timeleft": 30,
+    "created_at": "2021-07-19 22:11:23"
+  },
+  {
+    "id": 9,
+    "game_id": 8,
+    "type": "n3rd_down",
+    "title": "Text goes here ahihi",
+    "settings": { "yes": 20, "no": 50 },
+    "results_match": null,
+    "note": "",
+    "status": 1,
+    "timeleft": 15,
+    "created_at": "2021-07-19 22:11:23"
+  },
+  {
+    "id": 10,
+    "game_id": 8,
+    "type": "red_zone",
+    "title": "Text goes here ahihi",
+    "settings": { "rushing": 123, "passing": 55 },
+    "results_match": null,
+    "note": "",
+    "status": 1,
+    "timeleft": 30,
+    "created_at": "2021-07-19 22:11:23"
+  },
+  {
+    "id": 11,
+    "game_id": 8,
+    "type": "red_zone",
+    "title": "Text goes here ahihi",
+    "settings": { "rushing": 123, "passing": 55 },
+    "results_match": null,
+    "note": "",
+    "status": 1,
+    "timeleft": 30,
+    "created_at": "2021-07-19 22:11:23"
+  }
+]

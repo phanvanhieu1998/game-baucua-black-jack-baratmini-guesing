@@ -1,0 +1,654 @@
+/* Guessing Game Style */
+.guessing-game-item {
+  color: black;
+  height: 40px;
+  margin-bottom: 5px;
+  padding: 0 5px;
+}
+.responsive__type__game span {
+  font-size: 15px;
+  color: black;
+}
+.note_text {
+  color: white;
+  text-transform: uppercase;
+}
+.clear__game {
+  width: 15px;
+  float: right;
+  margin-right: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.responsive_type-game {
+  font-size: 15px;
+}
+.guessing-game-list {
+  background-color: white;
+}
+.value__settings {
+  display: flex;
+  background-color: white;
+  height: 30px;
+  margin-top: 5px;
+  justify-content: space-between;
+}
+.value__settings span {
+  cursor: pointer;
+  line-height: 25px;
+  margin: 0 5px;
+}
+.type_game-label {
+  line-height: 40px;
+  font-weight: 600;
+}
+.game-full {
+  background-color: #6aa2f7;
+}
+.game-n1st_half {
+  background-color: #e5213d;
+}
+.game-n2nd_half {
+  background-color: #21e54b;
+}
+.game-qlines {
+  background-color: #e3e521;
+}
+.lbgt-full {
+  background-color: #6aa2f7;
+}
+.lbgt-n1st_half {
+  background-color: #e5213d;
+}
+.lbgt-n2nd_half {
+  background-color: #21e54b;
+}
+.lbgt-qlines {
+  background-color: #e3e521;
+}
+.selected_value {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 25px;
+}
+.note_qlines {
+  display: flex;
+  justify-content: space-around;
+}
+.filter_game {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px 10px 20px;
+  background-color: #0d6751;
+  border-top: 1px solid #16daab;
+  border-bottom: 1px solid #16daab;
+}
+.filter_list_game {
+  width: 96px;
+  height: 36px;
+  cursor: pointer;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+.filter_list_game.current {
+  border: 2px solid #fff;
+}
+.filter-ALL {
+  background-color: #a67df7;
+  border: 2px solid #a67df7;
+}
+.filter-FULL {
+  background-color: #6aa2f7;
+  border: 2px solid #6aa2f7;
+}
+.filter-1ST {
+  background-color: #e5213d;
+  border: 2px solid #e5213d;
+}
+.filter-2ND {
+  background-color: #21e54b;
+  border: 2px solid #21e54b;
+}
+.filter-QLINES {
+  background-color: #e3e521;
+  border: 2px solid #e3e521;
+}
+.box-selected_value {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.betting_door_list .current-bet {
+  border: 2px solid #eea347 !important;
+}
+.betting_door_list {
+  display: flex;
+  text-transform: uppercase;
+  justify-content: space-around;
+  padding: 10px;
+}
+.betting_door_list_1 {
+  text-transform: uppercase;
+}
+.betting_door_list .el-button.is-disabled {
+  color: #ffffff;
+  background-color: #7dae9a;
+  border-color: #7dae9a;
+}
+.betting_door_list .el-badge__content.is-fixed {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+/* .betting_door_list  {
+  display: flex;
+  justify-content: center;
+} */
+.game__pending {
+  padding: 0 5px;
+  height: 40px;
+  margin-bottom: 5px;
+  line-height: 40px;
+  font-weight: 600;
+}
+.return_result span {
+  color: #276f5f;
+  font-weight: 600;
+  font-size: 12px;
+}
+.game__result {
+  height: 40px;
+  padding: 0 5px;
+  line-height: 40px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.scroll--peding {
+  height: auto;
+  max-height: 180px;
+  overflow-y: auto;
+}
+.scroll--list--game {
+  height: auto;
+  min-height: 340px;
+  overflow-y: auto;
+  max-height: 450px;
+}
+.gamme--result {
+  background-color: white;
+  height: 30px;
+  margin-top: 5px;
+  line-height: 27px;
+}
+.value__settings span {
+  font-weight: 600;
+}
+/* .value__settings .el-button{
+  
+}
+.game-full{
+  background-color: red;
+} */
+
+.pending {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.box-selected_value span {
+  font-weight: 600;
+}
+.return_result {
+  display: flex;
+  justify-content: flex-end;
+}
+.value_bet_pending {
+  background-color: white;
+  height: 30px;
+  margin-top: 5px;
+  line-height: 27px;
+}
+.noGame {
+  padding: 40px 20px 0 20px;
+  background-color: #0d6751;
+  color: #fff;
+  height: 300px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.2;
+}
+.betting_door_list .el-button {
+  background-color: #1e845a;
+  border: 2px solid #22c99b;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 150px;
+  height: 44px;
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0 0 2px #f9fbfa, 0 0 2px rgb(0 0 0), inset 0 0 2px rgb(0 0 0);
+  font-size: 13px;
+}
+.value_bet_pending_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-balance-min-max {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  height: 25px;
+  font-weight: 600;
+}
+.min-max {
+  background-color: #0d6751;
+  border: 2px solid white;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-level-bet {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  background-color: #0d6751;
+}
+.image-level-bet button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.image-level-bet img {
+  width: 140px;
+}
+
+.list__bet__tip__clear {
+  display: flex;
+  justify-content: center;
+
+  background-color: #0d6751;
+  padding-bottom: 20px;
+}
+
+.list__bet__tip__clear .el-button {
+  background-color: #0d6751;
+  border: 2px solid #22c99b;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 150px;
+  height: 44px;
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0 0 2px #f9fbfa, 0 0 2px rgb(0 0 0), inset 0 0 2px rgb(0 0 0);
+  font-size: 13px;
+}
+.list__bet__tip__clear .el-button:hover {
+  background-color: #0d6751;
+  border: 2px solid #22c99b;
+  color: white;
+}
+.list__bet__tip__clear .el-button:disabled {
+  opacity: 0.5;
+}
+.tip__dealer {
+  margin: 0 30px;
+}
+.disabled {
+  padding: 0;
+  color: black;
+  font-size: 18px;
+  border-radius: 5px;
+  margin: 2px;
+}
+.disabled:hover {
+  color: black;
+  /* background-color: black; */
+}
+.disabled:focus {
+  color: black;
+}
+.pending--result {
+  border: 2px solid #fff;
+  color: white;
+  background-color: #1e6942;
+  text-align: center;
+  margin: 0 !important;
+}
+.pending--result span {
+  font-weight: 600;
+}
+/* .guessing-game-list {
+  height: 450px;
+
+  overflow-y: auto;
+} */
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.game-full:hover {
+  background-color: #6aa2f7;
+}
+.game-n1st_half:hover {
+  background-color: #e5213d;
+}
+.game-n2nd_half:hover {
+  background-color: #21e54b;
+}
+.game-qlines:hover {
+  background-color: #e3e521;
+}
+.lbgt-full {
+  background-color: #6aa2f7;
+}
+.dialog-tip-game {
+  color: #fff;
+  background-color: #e6a23c;
+  border-color: #e6a23c;
+}
+.dialog-tip-game {
+  background-color: #0d6751;
+  box-shadow: 2px 2px 20px 1px;
+  border: 2px solid #22c99b;
+  border-radius: 10px;
+  width: 20%;
+}
+.el-button + .el-button {
+  margin-left: 2px;
+}
+.type_game_pending {
+  border-radius: 2px;
+  width: 70px;
+  display: inline-block;
+  background-color: #1e845b;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+}
+.respnsive_game_gue {
+  background-color: white;
+  float: right;
+  margin-right: 5px;
+}
+.about_bet {
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 13px;
+}
+
+.about_bet {
+  padding: 5px 4px;
+  color: black;
+  font-size: 14px;
+  border-radius: 5px;
+  margin: 2px;
+}
+.about_bet:hover {
+  color: black;
+  /* background-color: black; */
+}
+.about_bet:focus {
+  color: black;
+}
+@media screen and (min-width: 601px) and (max-width: 700px) {
+  .el-badge__content.is-fixed {
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 500px) {
+  .el-badge__content.is-fixed {
+    margin-right: 32px;
+  }
+  .type_game_pending {
+    font-size: 10px;
+    width: 50px;
+  }
+  .min-max {
+    font-size: 12px;
+  }
+  .disabled {
+    font-size: 12px;
+  }
+  .about_bet {
+    font-size: 15px;
+    margin: 0;
+  }
+  .pending {
+    font-size: 10px;
+  }
+  .return_result {
+    font-size: 12px;
+  }
+  .list-balance-min-max {
+    padding: 1px 0 0 0 !important;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .game__pending {
+    height: 76px;
+    margin-bottom: 5px;
+  }
+  .clear__game {
+    margin-top: 2px;
+  }
+  .return_result {
+    margin-top: 7px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .llll {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+    width: 100%;
+    background-color: white;
+  }
+  .responsive_type-game {
+    line-height: 76px;
+  }
+  .scroll--list--game {
+    height: auto;
+    height: 260px;
+    min-height: 260px;
+    overflow-y: auto;
+  }
+
+  .scroll--peding {
+    height: auto;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+
+  .box-selected_value {
+    font-size: 12px;
+  }
+  .minute {
+    font-size: 12px;
+  }
+  .game__pending {
+    line-height: 27px;
+    font-size: 14px;
+  }
+  .game__result {
+    height: 70px;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  .responsive__type__game {
+    line-height: 70px;
+  }
+  .guessing-game-item {
+    height: 60px;
+  }
+  .type_game-label {
+    line-height: 19px !important;
+    font-size: 14px;
+  }
+  .filter_list_game {
+    font-size: 10px;
+    margin-right: 5px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .dialog-tip-game {
+    width: 40% !important;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 414px) {
+  .dialog-tip-game {
+    width: 70% !important;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .minute {
+    font-weight: 600;
+    line-height: 30px;
+    margin-right: 5px;
+    position: relative;
+    top: -30px;
+    right: 0;
+  }
+  .return_result {
+    margin-top: 4px;
+  }
+  .xx {
+    position: absolute;
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+  .dialog-tip-game {
+    width: 50% !important;
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 600px) {
+  .box-selected_value {
+    width: 110px;
+  }
+  .responsive__type__game span {
+    font-size: 11px;
+  }
+  .responsive_type-game {
+    font-size: 11px;
+  }
+  .betting_door_list .el-button {
+    width: 110px;
+  }
+  .image-level-bet img {
+    width: 100px;
+  }
+  .list__bet__tip__clear .el-button {
+    width: 104px;
+  }
+  .tip__dealer .place-tip-clear {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 449px) {
+  .box-selected_value {
+    width: 80px;
+  }
+  .betting_door_list_1 span {
+    margin-left: 0px !important;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  .note_text {
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  .selected_value {
+    padding-top: 10px;
+  }
+  .type_game-label {
+    font-size: 12px;
+  }
+  .responsive__type__game span {
+    font-size: 11px;
+  }
+  .responsive_type-game {
+    font-size: 11px;
+  }
+  .note_qlines {
+    display: flex;
+    justify-content: space-around;
+  }
+  .return_result span {
+    font-size: 10px;
+  }
+  .betting_door_list .el-button {
+    width: 90px;
+    padding: 0 2px;
+    margin: 0 2px;
+  }
+  .list-balance-min-max {
+    font-size: 13px;
+  }
+  .image-level-bet img {
+    width: 80px;
+  }
+  .list__bet__tip__clear .el-button {
+    width: 90px;
+    font-size: 11px !important;
+  }
+  .tip__dealer .el-button {
+    padding: 0;
+    width: 90px;
+    width: 100%;
+  }
+  .list__bet__tip__clear .btn-choice-bet {
+    width: 100%;
+  }
+  .tip__dealer .place-tip-clear {
+    padding: 0 5px;
+  }
+  /* .list__bet__tip__clear .el-button span {
+    margin-left: -8px !important;
+  } */
+
+  .noGame {
+    padding: 30px ​20px 0 20px;
+  }
+  .noGame span {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .about_bet {
+    padding: 6px 4px;
+  }
+}

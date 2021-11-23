@@ -1,0 +1,222 @@
+#main-app {
+  background-color: #266725;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  width: 100%;
+  max-width: 710px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  border: none;
+  border-image-slice: 1;
+  /*height: calc(100vh - 2px);*/
+}
+#main-app > div,
+#main-app > div > div {
+  height: 100%;
+}
+#main-app .login-screen {
+  box-shadow: 0 0 2px #f9fbfa, 0 0 5px rgb(0 0 0), inset 0 0 5px rgb(0 0 0);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+  height: calc(100vh - 2px);
+}
+#main-app .game-screen {
+  min-height: calc(100vh - 2px);
+}
+#main-app .login-screen::-webkit-scrollbar {
+  width: 0;
+  display: none !important;
+}
+#main-app .game-screen-wrapper {
+  background: rgb(1, 48, 39);
+  background: linear-gradient(
+    167deg,
+    rgba(1, 48, 39, 1) 0%,
+    rgba(1, 119, 94, 1) 100%
+  );
+}
+
+#main-app .game-screen-wrapper .game-display {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.game-wrapper,
+.game-wrapper-black-jack,
+.game-wrapper-baccarat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-wrapper-black-jack {
+  height: calc(100vh - 2px);
+}
+
+.game-wrapper-baccarat {
+  height: 100%;
+}
+.game-wrapper-baccarat,
+.game-wrapper-black-jack {
+  overflow: scroll;
+}
+
+.game-wrapper-baccarat::-webkit-scrollbar,
+.game-wrapper-black-jack::-webkit-scrollbar {
+  width: 0;
+  display: none !important;
+}
+.game-item.is-disabled {
+  background-color: #969696 !important;
+}
+
+.section-1,
+.section-2,
+.child-section-1,
+.section-2 .child-section-2 {
+  width: 100%;
+}
+
+.section-2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.game-wrapper-black-jack,
+.game-wrapper-baccarat,
+.section-2 .child-section-1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.child-section-1 {
+  position: relative;
+}
+
+.child-section-1 > .el-icon-lock {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: #ffce00;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.endgame-dialog,
+.waiting-dialog,
+.dialog-tip {
+  max-width: 300px;
+}
+
+.endgame-dialog .el-dialog__header {
+  display: none;
+}
+
+.endgame-dialog .el-dialog__body,
+.waiting-dialog .el-dialog__body {
+  padding: 15px 20px;
+}
+
+.el-dialog.group_chat_dialog {
+  width: 100% !important;
+  top: 0;
+  height: 100vh;
+  margin-top: 0 !important;
+  margin-bottom: 0;
+  max-width: 720px;
+  border-radius: 0;
+}
+
+.el-dialog.group_chat_dialog .el-dialog__body {
+  padding: 0;
+}
+.el-dialog.group_chat_dialog .el-dialog__header {
+  background-color: #3b4653;
+}
+.el-dialog.group_chat_dialog .el-dialog__header .el-dialog__title {
+  color: #ffffff;
+}
+
+.el-dialog.group_chat_dialog
+  .el-dialog__header
+  .el-dialog__headerbtn
+  .el-dialog__close {
+  color: #ffffff;
+}
+/*.el-dialog.group_chat_dialog .el-dialog__headerbtn {*/
+/*  position: absolute;*/
+/*  top: 20px;*/
+/*  right: 35px;*/
+/*  padding: 0;*/
+/*  background: 0 0;*/
+/*  border: none;*/
+/*  outline: 0;*/
+/*  cursor: pointer;*/
+/*  font-size: 16px;*/
+/*}*/
+.iframe-container {
+  height: 94vh;
+}
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 675px) {
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 575px) {
+}
+
+@media only screen and (max-width: 500px) {
+  .verify-dialog {
+    width: 85% !important;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+}
+
+@media only screen and (max-width: 375px) {
+  .title-login {
+    font-size: 3rem;
+  }
+
+  .login-input {
+    width: 90% !important;
+  }
+  .form-login .el-checkbox__label {
+    font-size: 20px;
+  }
+
+  .el-message {
+    width: 96%;
+  }
+}
